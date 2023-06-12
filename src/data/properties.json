@@ -1,0 +1,67 @@
+{
+    "properties": [
+        {
+            "name": "The Willows",
+            "address": "3517 W, Gray St. Utica",
+            "rooms": "3",
+            "bathrooms": "2",
+            "surface": "230 ft²",
+            "rent": "440/m",
+            "rating": "4.7"
+        },
+        {
+            "name": "Orchard House",
+            "address": "3517 W, Gray St. Utica",
+            "rooms": "3",
+            "bathrooms": "2",
+            "surface": "230 ft²",
+            "rent": "440/m",
+            "rating": "4.7"
+        },
+        {
+            "name": "The Willows",
+            "address": "3517 W, Gray St. Utica",
+            "rooms": "3",
+            "bathrooms": "2",
+            "surface": "230 ft²",
+            "rent": "440/m",
+            "rating": "4.7"
+        },
+        {
+            "name": "Orchard House",
+            "address": "3517 W, Gray St. Utica",
+            "rooms": "3",
+            "bathrooms": "2",
+            "surface": "230 ft²",
+            "rent": "440/m",
+            "rating": "4.7"
+        },
+        {
+            "name": "The Willows",
+            "address": "3517 W, Gray St. Utica",
+            "rooms": "3",
+            "bathrooms": "2",
+            "surface": "230 ft²",
+            "rent": "440/m",
+            "rating": "4.7"
+        },
+        {
+            "name": "Orchard House",
+            "address": "3517 W, Gray St. Utica",
+            "rooms": "3",
+            "bathrooms": "2",
+            "surface": "230 ft²",
+            "rent": "440/m",
+            "rating": "4.7"
+        },
+        {
+            "name": "The Willows",
+            "address": "3517 W, Gray St. Utica",
+            "rooms": "3",
+            "bathrooms": "2",
+            "surface": "230 ft²",
+            "rent": "440/m",
+            "rating": "4.7"
+        }
+    ]
+}
