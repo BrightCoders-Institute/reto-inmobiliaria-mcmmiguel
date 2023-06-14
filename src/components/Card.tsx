@@ -1,7 +1,9 @@
 import React from 'react';
 import { View, Text, Image, StyleSheet } from 'react-native';
 
-export default function Card() {
+export default function Card(
+    { name, address, rooms, bath, surface, rent, rating }
+        : { name: string, address: string, rooms: string, bath: string, surface: string, rent: string, rating: string }) {
 
     return (
         <View style={styles.container}>
@@ -10,37 +12,37 @@ export default function Card() {
                 <View style={styles.rateContainer}>
                     <View style={styles.rate}>
                         <Image style={styles.rateImage} source={require('../../img/star.png')} />
-                        <Text style={styles.rateText}>4.7</Text>
+                        <Text style={styles.rateText}>{rating}</Text>
                     </View>
                 </View>
             </View>
 
             <View style={styles.info}>
-                <Text style={styles.infoName}>The Willows</Text>
+                <Text style={styles.infoName}>{name}</Text>
                 <View style={styles.address}>
                     <Image style={styles.addressIcon} source={require('../../img/location.png')} />
-                    <Text style={styles.addressText}>3517 W.Gray St. Utica</Text>
+                    <Text style={styles.addressText}>{address}</Text>
                 </View>
 
                 <View style={styles.facilities}>
                     <View style={styles.beds}>
                         <Image style={styles.facilitiesIcon} source={require('../../img/bed.png')} />
-                        <Text style={styles.facilitiesText}>2</Text>
+                        <Text style={styles.facilitiesText}>{rooms}</Text>
                     </View>
 
                     <View style={styles.baths}>
                         <Image style={styles.facilitiesIcon} source={require('../../img/bath.png')} />
-                        <Text style={styles.facilitiesText}>5</Text>
+                        <Text style={styles.facilitiesText}>{bath}</Text>
                     </View>
 
                     <View style={styles.area}>
                         <Image style={styles.facilitiesIcon} source={require('../../img/area.png')} />
-                        <Text style={styles.facilitiesText}>230 ft2</Text>
+                        <Text style={styles.facilitiesText}>{surface}</Text>
                     </View>
                 </View>
 
                 <View style={styles.rent}>
-                    <Text style={styles.rentText}>$440/m</Text>
+                    <Text style={styles.rentText}>${rent}</Text>
                 </View>
 
             </View>
@@ -61,6 +63,7 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         backgroundColor: '#f5fdff',
         borderRadius: 20,
+        marginBottom: 20,
     },
     imageContainer: {
         flex: 1,
