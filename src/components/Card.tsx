@@ -63,7 +63,7 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         backgroundColor: '#f5fdff',
         borderRadius: 20,
-        marginBottom: 20,
+        marginVertical: 10,
     },
     imageContainer: {
         flex: 1,
@@ -82,7 +82,7 @@ const styles = StyleSheet.create({
     rateContainer: {
         position: 'absolute',
         bottom: 30,
-        right: 7,
+        right: 15, //En fisico 7
         zIndex: 1,
     },
     rate: {
