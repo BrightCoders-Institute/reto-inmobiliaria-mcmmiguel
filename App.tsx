@@ -6,25 +6,29 @@
  */
 
 import React from 'react';
-import type { PropsWithChildren } from 'react';
-import {
-  StyleSheet,
-  useColorScheme,
-} from 'react-native';
-
-import { Colors } from 'react-native/Libraries/NewAppScreen';
+import { useColorScheme, DarkTheme, defaultTheme, View, Text, StyleSheet, Dimensions } from 'react-native';
+import Card from './src/components/Card';
 
 function App(): JSX.Element {
-  const isDarkMode = useColorScheme() === 'dark';
+  const theme = useColorScheme();
 
-  const backgroundStyle = {
-    backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
-  };
-
-  return ();
+  return (
+    <View style={styles.mainContainer}>
+      <Card />
+    </View>
+  );
 }
 
 const styles = StyleSheet.create({
+  mainContainer: {
+    alignItems: 'center',
+    justifyContent: 'center',
+    alignSelf: 'center',
+    width: '100%',
+    maxWidth: Dimensions.get('window').width * 0.95,
+    marginHorizontal: 'auto',
+    backgroundColor: 'green',
+  },
 });
 
 export default App;
