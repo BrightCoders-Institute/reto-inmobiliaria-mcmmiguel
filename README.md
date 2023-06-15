@@ -1,3 +1,5 @@
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/45cb4a87450d43bc9b1d2672f012124e)](https://app.codacy.com/gh/BrightCoders-Institute/reto-inmobiliaria-mcmmiguel/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
+
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/z5kNBBhk)
 ![BrightCoders Logo](img/logo.png)
 
