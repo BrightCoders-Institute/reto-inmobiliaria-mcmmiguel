@@ -10,6 +10,7 @@ export default function ScrollList() {
             {Properties.properties.map((property, index) => (
                 <Card
                     key={index}
+                    image={property.imageUrl}
                     name={property.name}
                     address={property.address}
                     rooms={property.rooms}

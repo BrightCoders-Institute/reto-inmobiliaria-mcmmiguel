@@ -1,10 +1,10 @@
 
 import React from 'react';
-import { useColorScheme, View, StyleSheet, Dimensions } from 'react-native';
+import { /*useColorScheme,*/ View, StyleSheet, Dimensions } from 'react-native';
 import ScrollList from './src/components/ScrollList';
 
 function App(): JSX.Element {
-  const theme = useColorScheme();
+  // const theme = useColorScheme();
 
   return (
     <View style={styles.mainContainer}>

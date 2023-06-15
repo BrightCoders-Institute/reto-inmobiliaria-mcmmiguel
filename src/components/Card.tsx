@@ -2,13 +2,13 @@ import React from 'react';
 import { View, Text, Image, StyleSheet } from 'react-native';
 
 export default function Card(
-    { name, address, rooms, bath, surface, rent, rating }
-        : { name: string, address: string, rooms: string, bath: string, surface: string, rent: string, rating: string }) {
+    { image, name, address, rooms, bath, surface, rent, rating }
+        : { image: string, name: string, address: string, rooms: string, bath: string, surface: string, rent: string, rating: string }) {
 
     return (
         <View style={styles.container}>
             <View style={styles.imageContainer}>
-                <Image source={require('../../img/property.png')} style={styles.image} />
+                <Image source={{ uri: image }} style={styles.image} />
                 <View style={styles.rateContainer}>
                     <View style={styles.rate}>
                         <Image style={styles.rateImage} source={require('../../img/star.png')} />
@@ -75,9 +75,10 @@ const styles = StyleSheet.create({
         zIndex: 0,
     },
     image: {
+        borderRadius: 10,
         width: 120,
-        height: '100%',
-        resizeMode: 'contain',
+        height: '70%',
+        resizeMode: 'cover',
     },
     rateContainer: {
         position: 'absolute',

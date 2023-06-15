@@ -7,16 +7,38 @@
             "bathrooms": "2",
             "surface": "230 ft²",
             "rent": "440/m",
-            "rating": "4.7"
+            "rating": "4.7",
+            "imageUrl": "https://images.unsplash.com/photo-1531300365552-da5abe58a725?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=495&q=80"
         },
         {
             "name": "Orchard House",
             "address": "3517 W, Gray St. Utica",
             "rooms": "3",
             "bathrooms": "2",
-            "surface": "230 ft²",
-            "rent": "440/m",
-            "rating": "4.7"
+            "surface": "430 ft²",
+            "rent": "665/m",
+            "rating": "4.5",
+            "imageUrl": "https://images.unsplash.com/photo-1531300365552-da5abe58a725?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=495&q=80"
+        },
+        {
+            "name": "The Willows",
+            "address": "3517 W, Gray St. Utica",
+            "rooms": "3",
+            "bathrooms": "2",
+            "surface": "220 ft²",
+            "rent": "540/m",
+            "rating": "3.4",
+            "imageUrl": "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1wcm9qZWN0cy1hZG1pbi1pbWFnZXMiLCJrZXkiOiIwNjYyYTk1NC1lNDQxLTQwNDYtODQ5YS04N2Y4NDc2NTI5MjgvMDY2MmE5NTQtZTQ0MS00MDQ2LTg0OWEtODdmODQ3NjUyOTI4X2ZmNTQ3NThiLWRkNjItNDBjNi05YTE0LTFhYTNmZGE2N2UxZC53ZWJwIiwiYnJhbmQiOiJMQU1VREkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MCwiaGVpZ2h0Ijo0ODAsImZpdCI6ImNvdmVyIn19fQ=="
+        },
+        {
+            "name": "Orchard House",
+            "address": "3517 W, Gray St. Utica",
+            "rooms": "3",
+            "bathrooms": "2",
+            "surface": "310 ft²",
+            "rent": "370/m",
+            "rating": "4.4",
+            "imageUrl": "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci9jZmM2YmQ2OC1kMWNkLTNmY2MtOTEwMy1iNTc0YzI0MGZiOWQvZDU5NTczYjdmZjcyYjQ1NDNhMTczY2RkZGJmZTQ4ZjgwYjkwMGViODQwYjFmMjRiNjE3OGVhMWFmYWFlNjcyZS5qcGVnIiwiYnJhbmQiOiJMQU1VREkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ=="
         },
         {
             "name": "The Willows",
@@ -25,7 +47,8 @@
             "bathrooms": "2",
             "surface": "230 ft²",
             "rent": "440/m",
-            "rating": "4.7"
+            "rating": "4.7",
+            "imageUrl": "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci9hYWIxODg2Ny04Yzk5LTMxMmEtYmY3OS00NTE1ZjI1MTQ4NmUvZjYwOWEzMzc4OWE5OWFkNTdmZmM0MjBjMzQ3MTAzODkxMjkzZjM1YmNlYTI0NzhmMWMwNzE4NTZlNmI3ZDRkMC5qcGVnIiwiYnJhbmQiOiJMQU1VREkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ=="
         },
         {
             "name": "Orchard House",
@@ -34,34 +57,18 @@
             "bathrooms": "2",
             "surface": "230 ft²",
             "rent": "440/m",
-            "rating": "4.7"
+            "rating": "3.5",
+            "imageUrl": "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci9jNzYyMTBlYy1jZDRiLTM4ZjgtYjhhMi02NGIzMjAwMTcwNWMvNzJmMGFiYzdkZTNkYTMwZmUzZmRmYjA3Njk3YTdlNzk0MzZkZDE1NWEwMjU2NmY3NWU2NGMzNWE5MmM0ZWIxNC5qcGVnIiwiYnJhbmQiOiJMQU1VREkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ=="
         },
         {
             "name": "The Willows",
             "address": "3517 W, Gray St. Utica",
             "rooms": "3",
             "bathrooms": "2",
-            "surface": "230 ft²",
-            "rent": "440/m",
-            "rating": "4.7"
-        },
-        {
-            "name": "Orchard House",
-            "address": "3517 W, Gray St. Utica",
-            "rooms": "3",
-            "bathrooms": "2",
-            "surface": "230 ft²",
-            "rent": "440/m",
-            "rating": "4.7"
-        },
-        {
-            "name": "The Willows",
-            "address": "3517 W, Gray St. Utica",
-            "rooms": "3",
-            "bathrooms": "2",
-            "surface": "230 ft²",
-            "rent": "440/m",
-            "rating": "4.7"
+            "surface": "287 ft²",
+            "rent": "489/m",
+            "rating": "2.3",
+            "imageUrl": "https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci9jODYwYjVkOS0wZGQ1LTM3ZTAtOTA3YS1iZjQ3MjVhM2NiNDkvMTBmMGY5MjcwNWI0NDNkNGFlYjNmNGNiMjc2YTlmYzQyYTJjYzZmOGEzODRhNDA0ODY2NTBlNDNiNzE0OTNiZS5qcGVnIiwiYnJhbmQiOiJMQU1VREkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ=="
         }
     ]
 }
