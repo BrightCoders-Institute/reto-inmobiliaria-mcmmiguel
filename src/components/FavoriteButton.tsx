@@ -8,7 +8,7 @@ export default function FavoriteButton({ isFavorite, setIsFavorite }: { isFavori
     };
 
     return (
-        <TouchableOpacity style={styles.hearthContainer} onPress={toggleIsFavorite}>
+        <TouchableOpacity style={styles.hearthContainer} onPress={toggleIsFavorite} testID="favorite-button">
             <View style={[styles.hearthBackground, isFavorite && styles.hearthBackgroundActive]} />
             <Image style={styles.hearthIcon} source={require('../../img/hearth.png')} />
         </TouchableOpacity>
