@@ -1,9 +1,16 @@
-import React from 'react';
-import { View, Text, Image, StyleSheet } from 'react-native';
+import React, { useState } from 'react';
+import { View, Text, Image, StyleSheet, TouchableOpacity } from 'react-native';
 
 export default function Card(
     { image, name, address, rooms, bath, surface, rent, rating }
-        : { image: string, name: string, address: string, rooms: string, bath: string, surface: string, rent: string, rating: string }) {
+        : {
+            image: string, name: string, address: string, rooms: string, bath: string, surface: string, rent: string, rating: string
+        }) {
+
+    const [isFavorite, setIsFavorite] = useState(false);
+    const toggleIsFavorite = () => {
+        setIsFavorite(!isFavorite);
+    };
 
     return (
         <View style={styles.container}>
@@ -35,21 +42,21 @@ export default function Card(
                         <Text style={styles.facilitiesText}>{bath}</Text>
                     </View>
 
-                    <View style={styles.area}>
+                    <TouchableOpacity style={styles.area}>
                         <Image style={styles.facilitiesIcon} source={require('../../img/area.png')} />
                         <Text style={styles.facilitiesText}>{surface}</Text>
-                    </View>
+                    </TouchableOpacity>
                 </View>
 
                 <View style={styles.rent}>
                     <Text style={styles.rentText}>${rent}</Text>
                 </View>
 
-            </View>
+                <TouchableOpacity style={styles.hearthContainer} onPress={toggleIsFavorite}>
+                    <View style={[styles.hearthBackground, isFavorite && styles.hearthBackgroundActive]} />
+                    <Image style={styles.hearthIcon} source={require('../../img/hearth.png')} />
+                </TouchableOpacity>
 
-            <View style={styles.hearthContainer}>
-                <Image style={styles.hearthBackground} source={require('../../img/hearthBackground.png')} />
-                <Image style={styles.hearthIcon} source={require('../../img/hearth.png')} />
             </View>
 
         </View>
@@ -186,5 +193,10 @@ const styles = StyleSheet.create({
         resizeMode: 'contain',
         position: 'absolute',
         marginLeft: -5,
+        backgroundColor: 'green',
+        borderRadius: 50,
+    },
+    hearthBackgroundActive: {
+        backgroundColor: 'red',
     },
 });

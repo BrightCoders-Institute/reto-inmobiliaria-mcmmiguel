@@ -2,7 +2,7 @@ import React from 'react';
 import { render } from '@testing-library/react-native';
 import Card from '../src/components/Card';
 
-describe('Card component', () => {
+describe('<Card />', () => {
     it('Renderiza correctamente', () => {
         const props = {
             image: 'https://example.com/image.png',
