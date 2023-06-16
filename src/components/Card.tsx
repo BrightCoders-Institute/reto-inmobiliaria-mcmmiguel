@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { View, Text, Image, StyleSheet, TouchableOpacity } from 'react-native';
+import FavoriteButton from './FavoriteButton';
 
 export default function Card(
     { image, name, address, rooms, bath, surface, rent, rating }
@@ -8,9 +9,6 @@ export default function Card(
         }) {
 
     const [isFavorite, setIsFavorite] = useState(false);
-    const toggleIsFavorite = () => {
-        setIsFavorite(!isFavorite);
-    };
 
     return (
         <View style={styles.container}>
@@ -52,10 +50,7 @@ export default function Card(
                     <Text style={styles.rentText}>${rent}</Text>
                 </View>
 
-                <TouchableOpacity style={styles.hearthContainer} onPress={toggleIsFavorite}>
-                    <View style={[styles.hearthBackground, isFavorite && styles.hearthBackgroundActive]} />
-                    <Image style={styles.hearthIcon} source={require('../../img/hearth.png')} />
-                </TouchableOpacity>
+                <FavoriteButton isFavorite={isFavorite} setIsFavorite={setIsFavorite} />
 
             </View>
 
@@ -173,7 +168,7 @@ const styles = StyleSheet.create({
         fontSize: 20,
         fontWeight: '700',
         color: '#000',
-    },
+    },/*
     hearthContainer: {
         position: 'absolute',
         bottom: 25,
@@ -198,5 +193,5 @@ const styles = StyleSheet.create({
     },
     hearthBackgroundActive: {
         backgroundColor: 'red',
-    },
+    },*/
 });
